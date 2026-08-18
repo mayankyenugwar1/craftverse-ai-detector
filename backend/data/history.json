@@ -1,0 +1,687 @@
+[
+  {
+    "id": "27c49ce4-db25-405e-a098-27b2177e2947",
+    "filename": "213640f6fc4b403396f0ac7cf4795760.png",
+    "originalFilename": "test-ai-synthetic.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 30,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "General Artifacts",
+        "score": 57,
+        "description": "Some inconsistent artifacts detected"
+      },
+      {
+        "name": "Texture Variance",
+        "score": 47,
+        "description": "Mixed texture qualities"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive.",
+      "keyFindings": [
+        "General Artifacts: 57/100",
+        "Texture Variance: 47/100"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek additional context or manual verification.",
+      "explanation": "Signals are mixed, preventing a definitive classification."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:00:30.810362+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "a7527f05-6ac1-4386-ac17-aa51ca384a3f",
+    "filename": "6c139870e4824f00aa0b92e2e9379225.png",
+    "originalFilename": "ai-generated-fake.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 51,
+    "realProbability": 49,
+    "manipulationProbability": 21,
+    "uncertainProbability": 98,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "General Artifacts",
+        "score": 54,
+        "description": "Some inconsistent artifacts detected"
+      },
+      {
+        "name": "Texture Variance",
+        "score": 37,
+        "description": "Mixed texture qualities"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive.",
+      "keyFindings": [
+        "General Artifacts: 54/100",
+        "Texture Variance: 37/100"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek additional context or manual verification.",
+      "explanation": "Signals are mixed, preventing a definitive classification."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:00:47.342027+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "96958ad7-0844-4dc9-bbfa-43a683579eb7",
+    "filename": "566101163f9d485f868ba030d0249b09.mov",
+    "originalFilename": "IMG_4707.MOV",
+    "mediaType": "video",
+    "mimeType": "video/quicktime",
+    "fileSize": 57601195,
+    "status": "completed",
+    "aiProbability": 40,
+    "realProbability": 60,
+    "manipulationProbability": 23,
+    "uncertainProbability": 80,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "General Artifacts",
+        "score": 42,
+        "description": "Some inconsistent artifacts detected"
+      },
+      {
+        "name": "Texture Variance",
+        "score": 32,
+        "description": "Mixed texture qualities"
+      }
+    ],
+    "suspiciousFrames": [
+      {
+        "timestamp": 3.7,
+        "score": 91,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 4.79,
+        "score": 84,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 3.49,
+        "score": 80,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 2.16,
+        "score": 76,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 2.75,
+        "score": 77,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 4.65,
+        "score": 92,
+        "thumbnail": null
+      }
+    ],
+    "explanation": {
+      "summary": "The analysis is inconclusive.",
+      "keyFindings": [
+        "General Artifacts: 42/100",
+        "Texture Variance: 32/100"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek additional context or manual verification.",
+      "explanation": "Signals are mixed, preventing a definitive classification."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:04:56.907890+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "efeb4293-f760-485a-b965-0afd031ee13c",
+    "filename": "4eb55ab3916945148d2eb0529bc60363.mov",
+    "originalFilename": "IMG_4707.MOV",
+    "mediaType": "video",
+    "mimeType": "video/quicktime",
+    "fileSize": 57601195,
+    "status": "completed",
+    "aiProbability": 46,
+    "realProbability": 54,
+    "manipulationProbability": 21,
+    "uncertainProbability": 92,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "General Artifacts",
+        "score": 57,
+        "description": "Some inconsistent artifacts detected"
+      },
+      {
+        "name": "Texture Variance",
+        "score": 44,
+        "description": "Mixed texture qualities"
+      }
+    ],
+    "suspiciousFrames": [
+      {
+        "timestamp": 4.87,
+        "score": 70,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 3.96,
+        "score": 92,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 2.61,
+        "score": 89,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 3.93,
+        "score": 76,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 5.0,
+        "score": 73,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 1.94,
+        "score": 82,
+        "thumbnail": null
+      }
+    ],
+    "explanation": {
+      "summary": "The analysis is inconclusive.",
+      "keyFindings": [
+        "General Artifacts: 57/100",
+        "Texture Variance: 44/100"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek additional context or manual verification.",
+      "explanation": "Signals are mixed, preventing a definitive classification."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:04:57.023053+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "ce243564-95e8-421d-8dac-c0fe5568111f",
+    "filename": "f390f695c73542d590a3047be3184857.png",
+    "originalFilename": "test-real-photo-landscape.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 15,
+    "realProbability": 85,
+    "manipulationProbability": 4,
+    "uncertainProbability": 30,
+    "verdict": "LIKELY_AUTHENTIC",
+    "confidence": "high",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Organic Texture",
+        "score": 90,
+        "description": "Natural grain and texture present"
+      },
+      {
+        "name": "Natural Lighting",
+        "score": 85,
+        "description": "Consistent physical lighting"
+      },
+      {
+        "name": "Authentic Noise",
+        "score": 86,
+        "description": "Sensor noise matches camera characteristics"
+      },
+      {
+        "name": "Natural Color",
+        "score": 82,
+        "description": "Organic color variation"
+      },
+      {
+        "name": "Edge Consistency",
+        "score": 88,
+        "description": "Natural edge transitions"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis suggests this media is likely authentic with low AI probability (15%).",
+      "keyFindings": [
+        "Organic Texture: 90/100",
+        "Natural Lighting: 85/100",
+        "Authentic Noise: 86/100"
+      ],
+      "riskLevel": "LOW",
+      "recommendation": "Media appears consistent with natural capture.",
+      "explanation": "Natural noise patterns, organic textures, and consistent lighting strongly point to an authentic origin."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:05:20.262643+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "688629a4-4eba-46f9-97b5-336fcdcc56f0",
+    "filename": "159630cab46848d3a099328437a61fc9.png",
+    "originalFilename": "test-ai-synthetic-image.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T13:12:44.005482+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "5590f527-5874-466a-bdb5-7fb3b78d2c6c",
+    "filename": "97a644b6f53346d98630ad955907f0b0.png",
+    "originalFilename": "test-ai-synthetic-image.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T13:14:31.694495+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "f2a37dfa-dde9-400d-bda6-8352fe0dc87d",
+    "filename": "fc89da85d7274843ab27c90c94c65667.png",
+    "originalFilename": "test-ai-synthetic.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 91,
+    "realProbability": 9,
+    "manipulationProbability": 14,
+    "uncertainProbability": 18,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Unknown Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 91,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Color Distribution",
+        "score": 88,
+        "description": "Color distribution matches synthetic models"
+      },
+      {
+        "name": "Edge Artifacts",
+        "score": 89,
+        "description": "Blurring around high-contrast edges"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis indicates a high probability (91%) that this media was generated by AI.",
+      "keyFindings": [
+        "Synthetic Texture: 96/100",
+        "Pattern Uniformity: 91/100",
+        "Lighting Consistency: 88/100"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Exercise caution. Do not trust this media as authentic.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity and artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:20:02.486751+00:00",
+    "thumbnailUrl": "/uploads/fc89da85d7274843ab27c90c94c65667.png"
+  },
+  {
+    "id": "35261b2f-2a41-4ebb-8777-2c12e3182716",
+    "filename": "18a617d481a14c5d915b953764a591c6.png",
+    "originalFilename": "demo-sample-image.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:24:16.163567+00:00",
+    "thumbnailUrl": "/uploads/18a617d481a14c5d915b953764a591c6.png"
+  },
+  {
+    "id": "d3539928-29af-4596-9da7-fa99438ac22b",
+    "filename": "e220fde4049b41a382ff2d980949afa3.mp4",
+    "originalFilename": "demo-sample-video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:24:18.772696+00:00",
+    "thumbnailUrl": "/uploads/e220fde4049b41a382ff2d980949afa3.mp4"
+  },
+  {
+    "id": "e522dcab-abb5-4f27-9c59-4105fc087738",
+    "filename": "00b4aa5369b34b87b05ce5d8083da017.png",
+    "originalFilename": "black-beige-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:36:32.831111+00:00",
+    "thumbnailUrl": "/uploads/00b4aa5369b34b87b05ce5d8083da017.png"
+  },
+  {
+    "id": "335945f8-262f-4669-b78f-8538c27800b3",
+    "filename": "0c48037eafb94b7592b29567a0b3aaab.png",
+    "originalFilename": "final-prod-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:40:27.639639+00:00",
+    "thumbnailUrl": "/uploads/0c48037eafb94b7592b29567a0b3aaab.png"
+  },
+  {
+    "id": "8385a784-6676-4634-aae8-8ef4229b6e0f",
+    "filename": "c5fecd43c2c5432099ef0daeca708a68.mp4",
+    "originalFilename": "final-prod-video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T13:40:30.170864+00:00",
+    "thumbnailUrl": "/uploads/c5fecd43c2c5432099ef0daeca708a68.mp4"
+  }
+]
