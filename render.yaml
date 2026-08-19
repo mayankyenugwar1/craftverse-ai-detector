@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: craftverse-ai-backend
+    env: python
+    region: oregon
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "true"
+      - key: DETECTION_PROVIDER
+        value: "mock"
+      - key: FRONTEND_ORIGIN
+        value: "https://amazing-sawine-a87e09.netlify.app"
+      - key: SIGHTENGINE_API_USER
+        sync: false
+      - key: SIGHTENGINE_API_SECRET
+        sync: false
+      - key: HIVE_API_KEY
+        sync: false
+      - key: CLAUDE_API_KEY
+        sync: false

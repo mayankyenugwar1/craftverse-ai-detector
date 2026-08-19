@@ -1,7 +1,6 @@
 from enum import Enum
 from pydantic import BaseModel
 from typing import Optional
-from datetime import datetime
 
 class Verdict(str, Enum):
     AI_GENERATED = "AI_GENERATED"
@@ -56,7 +55,8 @@ class AnalysisResult(BaseModel):
     indicators: list[DetectionIndicator] = []
     suspiciousFrames: list[SuspiciousFrame] = []
     explanation: Optional[AIExplanation] = None
-    metadata: Optional[MediaMetadata] = None
+    analysisMode: str = "demo"  # "demo" or "live"
+    model: Optional[dict] = None
     createdAt: str
     thumbnailUrl: Optional[str] = None
 
@@ -68,8 +68,23 @@ class HistoryResponse(BaseModel):
     success: bool
     data: list[AnalysisResult]
 
+class ModelHealthInfo(BaseModel):
+    loaded: bool
+    engine: str
+    fallbackUsed: bool
+
 class HealthResponse(BaseModel):
     status: str
     version: str
     demoMode: bool
     provider: str
+    providerConfigured: bool = False
+    claudeConfigured: bool = False
+    modelVersion: Optional[str] = "craftverse-detector-v1"
+    detectorStatus: Optional[str] = "ready"
+    model: Optional[ModelHealthInfo] = None
+
+class ApiErrorResponse(BaseModel):
+    error: bool = True
+    code: str
+    message: str

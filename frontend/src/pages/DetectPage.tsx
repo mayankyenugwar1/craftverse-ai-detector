@@ -134,16 +134,16 @@ export const DetectPage: React.FC = () => {
                 <span>Forensic Neural Inspection</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-extrabold text-[#FAF6EE] mb-4 tracking-tight">
-                Upload your content
+                Verify Your Content
               </h1>
               <p className="text-lg text-beige-400 max-w-2xl mx-auto leading-relaxed">
-                Drop an image or video here to analyze for AI-generated and manipulated content.
+                Upload an image or video to check for AI-generated or manipulated content.
               </p>
             </div>
 
             {error && (
               <div className="mb-6">
-                <ErrorState message={error} onRetry={() => setError(null)} />
+                <ErrorState message={error} onRetry={() => setError(null)} onDemo={handleDemo} />
               </div>
             )}
 

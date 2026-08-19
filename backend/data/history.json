@@ -683,5 +683,2920 @@
     "metadata": null,
     "createdAt": "2026-08-18T13:40:30.170864+00:00",
     "thumbnailUrl": "/uploads/c5fecd43c2c5432099ef0daeca708a68.mp4"
+  },
+  {
+    "id": "01cbd9f2-2651-4a1d-9f67-d49ba1b72e88",
+    "filename": "0cfc15b64c95482499e25bd7a1b823c2.png",
+    "originalFilename": "ux-polish-sample.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T16:22:40.019476+00:00",
+    "thumbnailUrl": "/uploads/0cfc15b64c95482499e25bd7a1b823c2.png"
+  },
+  {
+    "id": "c81dde80-1c13-4d4f-9968-5a149ef41c4b",
+    "filename": "0ba93f0dc2e0430d912457af67e0e498.png",
+    "originalFilename": "final-hero-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T16:56:15.292895+00:00",
+    "thumbnailUrl": "/uploads/0ba93f0dc2e0430d912457af67e0e498.png"
+  },
+  {
+    "id": "f4e5a5ab-8b02-4cd8-bbc7-6617faff611a",
+    "filename": "feaf7027be37471f9982f2357d448b62.png",
+    "originalFilename": "network-fix-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:06:55.378213+00:00",
+    "thumbnailUrl": "/uploads/feaf7027be37471f9982f2357d448b62.png"
+  },
+  {
+    "id": "1f0cf4b1-c0d6-454d-bdb3-7abbabf829ec",
+    "filename": "149c638f844146e79fc8192fad9e70f8.mov",
+    "originalFilename": "IMG_4707.MOV",
+    "mediaType": "video",
+    "mimeType": "video/quicktime",
+    "fileSize": 57601195,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [
+      {
+        "timestamp": 0.8,
+        "score": 94,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 1.6,
+        "score": 91,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 2.4,
+        "score": 89,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 3.2,
+        "score": 96,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 4.0,
+        "score": 88,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 4.8,
+        "score": 93,
+        "thumbnail": null
+      }
+    ],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:11:26.521130+00:00",
+    "thumbnailUrl": "/uploads/149c638f844146e79fc8192fad9e70f8.mov"
+  },
+  {
+    "id": "ffc5cc62-27db-42de-a152-252cd0033a8b",
+    "filename": "04f7587966f149b9b819a15958eb9662.mov",
+    "originalFilename": "IMG_4707.MOV",
+    "mediaType": "video",
+    "mimeType": "video/quicktime",
+    "fileSize": 57601195,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 16,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [
+      {
+        "timestamp": 0.8,
+        "score": 94,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 1.6,
+        "score": 91,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 2.4,
+        "score": 89,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 3.2,
+        "score": 96,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 4.0,
+        "score": 88,
+        "thumbnail": null
+      },
+      {
+        "timestamp": 4.8,
+        "score": 93,
+        "thumbnail": null
+      }
+    ],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:11:26.760928+00:00",
+    "thumbnailUrl": "/uploads/04f7587966f149b9b819a15958eb9662.mov"
+  },
+  {
+    "id": "d93c8a81-585d-4c59-8855-cf7313df0c07",
+    "filename": "c1fb91f4da0a4af6ae1cfcdde624bb82.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:22:08.026562+00:00",
+    "thumbnailUrl": "/uploads/c1fb91f4da0a4af6ae1cfcdde624bb82.png"
+  },
+  {
+    "id": "a233443e-efbc-4e3a-94af-49901088386a",
+    "filename": "0e43c036e57f452db24c02347326bc27.mp4",
+    "originalFilename": "real_user_video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:22:10.321430+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "a1ea1fad-7141-4de9-a6e0-b999f0997381",
+    "filename": "8326729b98354d7a87c9ef442d3e7a0e.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:24:23.787564+00:00",
+    "thumbnailUrl": "/uploads/8326729b98354d7a87c9ef442d3e7a0e.png"
+  },
+  {
+    "id": "1540f806-e92b-45d1-85d8-61e0997a7696",
+    "filename": "5b77ad2e9bea4a67953c7ed0048c84c6.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:26:30.678336+00:00",
+    "thumbnailUrl": "/uploads/5b77ad2e9bea4a67953c7ed0048c84c6.png"
+  },
+  {
+    "id": "8aaed08b-2a7d-46bb-b75c-b4e31551d3dc",
+    "filename": "dcd9b862ba7f40448b52ee269801c118.mp4",
+    "originalFilename": "demo-video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:26:33.042124+00:00",
+    "thumbnailUrl": "/uploads/dcd9b862ba7f40448b52ee269801c118.mp4"
+  },
+  {
+    "id": "d98073c1-8def-4b6b-8cfc-b4ed6488047f",
+    "filename": "4f02103e450b41ad866defb1a7455c6d.png",
+    "originalFilename": "user_sample.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:26:35.341551+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "36f0d54b-33d0-4149-bcdc-dbaac63b7261",
+    "filename": "b24076b1f0ba4109bd6ec38e9d623593.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:38:26.714600+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "14c2015d-7750-418c-b3e5-4ddcb411926e",
+    "filename": "42c0314d767f4845bdc92b3e2dd8e81b.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:38:26.743700+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "de0d393b-ef87-4b9b-b5d6-be10aaebbb80",
+    "filename": "1bd4a7625a3a4b16bfa7566a1a7e462c.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:43:47.626305+00:00",
+    "thumbnailUrl": "/uploads/1bd4a7625a3a4b16bfa7566a1a7e462c.png"
+  },
+  {
+    "id": "36774e98-25f2-40c6-8c27-21df8feba325",
+    "filename": "d66742d39cc442f1becb5117a7d7e48e.png",
+    "originalFilename": "user_upload_test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:43:49.956825+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "235d0eda-f161-436f-929c-773445fa7a4e",
+    "filename": "ad11075d120d40ba9a828b7327e47b79.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:44:44.086266+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "8d40b965-7e23-4c5d-b784-da171a37c5c5",
+    "filename": "d2cf4654763c40f3ba5dbaef234f8845.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:44:44.114775+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "fa9a60af-182e-4a25-9dd2-b5fcebe84a68",
+    "filename": "83e2e22d92cd419abca733b42d438ca7.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:44:45.325973+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "19a137dc-6a43-4649-b088-8bf4b6711071",
+    "filename": "4adf20ee0d3746528cb4ece700b85852.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:44:45.357500+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "005dadf5-b2b6-42e6-b2a3-61e639572b1c",
+    "filename": "e073c06af90b4763ad0f3400a07a6af0.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:47:51.317277+00:00",
+    "thumbnailUrl": "/uploads/e073c06af90b4763ad0f3400a07a6af0.png"
+  },
+  {
+    "id": "a4c27c13-e309-48c0-9859-4d1abe1c8bbd",
+    "filename": "267fd1823ef04d3d8498bb866f7bcf36.png",
+    "originalFilename": "user_test_image.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:47:53.610796+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "6efb4e3d-43ca-478a-9de2-92c2dfbbac32",
+    "filename": "477c6176cb15439ca32773f4931ac0f1.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:48:27.197576+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "15a268d1-b992-42be-bae3-15f3955cf114",
+    "filename": "851c8ab36eac4034afbc86072c26dc8e.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:48:27.240637+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "62e5f272-aba1-4b1c-98b8-7fe71f596b4a",
+    "filename": "1f32dbae6c8c4a76a9b6a805cc40988d.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:48:38.697136+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "04484155-5371-47f1-af56-b171c01fef0f",
+    "filename": "7dd2c5782d014eab8f9ae2eda4fad061.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:48:38.727686+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "4749f63e-b98b-4526-b619-44c77fcb7157",
+    "filename": "cc5f044b29d24417bed562d5a59b1f7d.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:48:57.810784+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "c9b1b335-965b-44c6-bb3d-2fb687971e14",
+    "filename": "a3c596d65e824ae2a9f4aa67c27ac843.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:48:57.842476+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "09321476-95a8-474e-a189-7947b0d09596",
+    "filename": "a5e85128103840a9969be7b0d5cee988.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:53:32.806694+00:00",
+    "thumbnailUrl": "/uploads/a5e85128103840a9969be7b0d5cee988.png"
+  },
+  {
+    "id": "b9744149-074a-4e79-ac06-ebe4090308f9",
+    "filename": "34d6d24b184b4d929f3f05603f3fe488.jpg",
+    "originalFilename": "real_user_image.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:53:35.089456+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "d2fcf509-7d11-4102-bc7f-17c25fcfa82f",
+    "filename": "41a38a8bb6ee4c8ca8090e3bcc27f608.mp4",
+    "originalFilename": "real_user_video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:53:35.747910+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "96e781eb-7243-4760-8b0a-de07b8290eb3",
+    "filename": "8e5b0bc7c8c24f66878ce8c6f629d1fc.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "metadata": null,
+    "createdAt": "2026-08-18T17:56:43.075268+00:00",
+    "thumbnailUrl": "/uploads/8e5b0bc7c8c24f66878ce8c6f629d1fc.png"
+  },
+  {
+    "id": "5220c7a3-0e04-4f5d-8761-013e83c5c416",
+    "filename": "192860718b034f44b0b9afe8535ed32d.png",
+    "originalFilename": "real_image.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:56:45.365699+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "e64082f1-7608-4074-a2c7-96269d37ab55",
+    "filename": "78faae14b03849fd9f58dd600424d5dd.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:57:40.796695+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "09dacfd2-6645-4f2d-b95d-e26523b29f5b",
+    "filename": "96206965d33e4b4597f4f54dbeeea874.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "metadata": null,
+    "createdAt": "2026-08-18T17:57:40.844055+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "e2a5054a-df9a-4477-97fa-69b99900daae",
+    "filename": "7d55c0236b214ab0b246990ffe6ec334.png",
+    "originalFilename": "test-real-photo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:32:57.770750+00:00",
+    "thumbnailUrl": "/uploads/7d55c0236b214ab0b246990ffe6ec334.png"
+  },
+  {
+    "id": "46dda2a5-35db-41fd-a33c-95c70ac35d61",
+    "filename": "345baf40203943a6bb565c2db03f0ce7.png",
+    "originalFilename": "ai-synthetic-demo.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:33:00.142023+00:00",
+    "thumbnailUrl": "/uploads/345baf40203943a6bb565c2db03f0ce7.png"
+  },
+  {
+    "id": "479a720f-a29f-4950-bf03-114fd8cf29a1",
+    "filename": "37965890652d4f41b43fbb3f6d53622d.mp4",
+    "originalFilename": "test-video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 28,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:33:02.461825+00:00",
+    "thumbnailUrl": "/uploads/37965890652d4f41b43fbb3f6d53622d.mp4"
+  },
+  {
+    "id": "4e7d21eb-b926-4d86-b07a-8f2e19f94dc7",
+    "filename": "e9633136e246447281eadca1f20a4242.mp4",
+    "originalFilename": "test-video.mp4",
+    "mediaType": "unknown",
+    "mimeType": "application/octet-stream",
+    "fileSize": 28,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:34:28.446035+00:00",
+    "thumbnailUrl": "/uploads/e9633136e246447281eadca1f20a4242.mp4"
+  },
+  {
+    "id": "7a11502b-8a54-4db5-b18d-aa7a7d15e26b",
+    "filename": "2df5b3c03e2c40ab860906c91e39aafd.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:48:50.790478+00:00",
+    "thumbnailUrl": "/uploads/2df5b3c03e2c40ab860906c91e39aafd.jpg"
+  },
+  {
+    "id": "6701deaa-5b33-4cc3-a07d-d16717084fc2",
+    "filename": "ce36ebbe5b324355aeb5c3db46a36516.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:48:50.804053+00:00",
+    "thumbnailUrl": "/uploads/ce36ebbe5b324355aeb5c3db46a36516.jpg"
+  },
+  {
+    "id": "b0f3233c-a9e0-40d0-9634-837278615046",
+    "filename": "45394c3e7c334f828600428336a3a11c.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:53:40.609515+00:00",
+    "thumbnailUrl": "/uploads/45394c3e7c334f828600428336a3a11c.jpg"
+  },
+  {
+    "id": "79560503-02f0-4625-916a-75c0b2c804af",
+    "filename": "3d741396313f4b51be0e0ad7ebcef92d.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 92,
+    "realProbability": 8,
+    "manipulationProbability": 14,
+    "uncertainProbability": 8,
+    "verdict": "AI_GENERATED",
+    "confidence": "high",
+    "generator": "Diffusion Transformer Model",
+    "indicators": [
+      {
+        "name": "Synthetic Texture",
+        "score": 96,
+        "description": "High likelihood of generated textures"
+      },
+      {
+        "name": "Lighting Consistency",
+        "score": 88,
+        "description": "Lighting anomalies found"
+      },
+      {
+        "name": "Facial Anomalies",
+        "score": 91,
+        "description": "Facial structure contains anomalous patterns"
+      },
+      {
+        "name": "Pattern Uniformity",
+        "score": 85,
+        "description": "Unnatural uniform patterns detected"
+      },
+      {
+        "name": "Color Irregularities",
+        "score": 89,
+        "description": "Color distribution matches synthetic models"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The available detection signals strongly suggest that this content may have been generated using synthetic media techniques.",
+      "keyFindings": [
+        "Synthetic texture patterns detected",
+        "Lighting inconsistencies identified",
+        "Facial structure contains anomalous patterns",
+        "Image characteristics resemble synthetic generation"
+      ],
+      "riskLevel": "HIGH",
+      "recommendation": "Treat this content as potentially AI-generated and verify against the original source when authenticity is important.",
+      "explanation": "Multiple synthetic indicators were detected matching common generative AI patterns, including texture uniformity, lighting inconsistency, and diffusion artifacting."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T01:53:40.921861+00:00",
+    "thumbnailUrl": "/uploads/3d741396313f4b51be0e0ad7ebcef92d.jpg"
+  },
+  {
+    "id": "d94ffc55-6093-45da-8faf-0965ea3d96bb",
+    "filename": "30e7341ce4564dea8f2cfb40bff28304.png",
+    "originalFilename": "sample-ml-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T15:58:10.611123+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "812f5aab-b5bc-4aa7-907a-5136ffeb94ea",
+    "filename": "765433f9cf464055aa050d16c899265d.png",
+    "originalFilename": "sample-ml-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T15:59:05.745528+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "7de06af6-7000-46f7-ae1c-6dc81d054b71",
+    "filename": "41150a3691d44ef787d9703b4e9dcf42.png",
+    "originalFilename": "sample-ml-test.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T15:59:42.634814+00:00",
+    "thumbnailUrl": "/uploads/41150a3691d44ef787d9703b4e9dcf42.png"
+  },
+  {
+    "id": "a1d245d3-7c74-4129-94e8-11cd0672a402",
+    "filename": "03691f9fe30d46f5a0758f719d68a731.png",
+    "originalFilename": "ai-generated-fake.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T15:59:49.884929+00:00",
+    "thumbnailUrl": "/uploads/03691f9fe30d46f5a0758f719d68a731.png"
+  },
+  {
+    "id": "5ddef713-7d28-4756-92ad-1d25db0e038f",
+    "filename": "3ff63ea756af42db8ab712387cf0ce57.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T16:01:00.457872+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "9f40c953-19cf-4cac-8f3a-31bc7ac2e564",
+    "filename": "891eaf5c50cd4aeb9715724ea7427424.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "demo",
+    "createdAt": "2026-08-19T16:01:03.081075+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "1de49621-8397-4410-8413-2933cbffbd91",
+    "filename": "684b77e9378e467abf7659a467ad20a9.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:06:04.952315+00:00",
+    "thumbnailUrl": "/uploads/684b77e9378e467abf7659a467ad20a9.png"
+  },
+  {
+    "id": "7fabe7c2-e85b-4176-b8f3-a52f84eb7432",
+    "filename": "cfd0ec87223948fe8b8c408ff346215e.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:06:07.053983+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "3365ea58-244b-4d99-8738-aad182ae4447",
+    "filename": "968837182eee4c40a51b96b075e0ca51.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:07:27.511729+00:00",
+    "thumbnailUrl": "/uploads/968837182eee4c40a51b96b075e0ca51.png"
+  },
+  {
+    "id": "106bfe7f-2bf0-4bca-bb16-2ffb420fbf7e",
+    "filename": "90c22ab7d4e749268c11cbf19c05f43c.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:07:29.604236+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "c92aaa2d-9af1-47b3-a809-14833cb7f62f",
+    "filename": "6c269386069241a8b8c9d9dc8abc949d.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:08:50.103776+00:00",
+    "thumbnailUrl": "/uploads/6c269386069241a8b8c9d9dc8abc949d.png"
+  },
+  {
+    "id": "86e3c9dc-03bf-4dcc-be5c-ed38102461e6",
+    "filename": "a85b1b5ed8334681b649561d7237661c.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:08:52.198180+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "ff3c2686-f312-41c7-8490-bef615b10069",
+    "filename": "390b613e3d9b4d559f5f4338adffa501.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "completed",
+    "aiProbability": 57,
+    "realProbability": 43,
+    "manipulationProbability": 26,
+    "uncertainProbability": 86,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 75,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 30,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:11:05.495300+00:00",
+    "thumbnailUrl": "/uploads/390b613e3d9b4d559f5f4338adffa501.jpg"
+  },
+  {
+    "id": "b3eb9de9-c4fc-4929-89cc-8eefae2ec683",
+    "filename": "6af14aaf5cb54666a94889e90d545e3d.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "completed",
+    "aiProbability": 57,
+    "realProbability": 43,
+    "manipulationProbability": 26,
+    "uncertainProbability": 86,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 75,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 30,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "createdAt": "2026-08-19T16:11:06.196521+00:00",
+    "thumbnailUrl": "/uploads/6af14aaf5cb54666a94889e90d545e3d.jpg"
+  },
+  {
+    "id": "b0d42d2b-03c7-4c86-a0f8-dc3c83c2ccf1",
+    "filename": "197e1f7199a8422d82ebf9e4d91d6438.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 26,
+    "realProbability": 74,
+    "manipulationProbability": 16,
+    "uncertainProbability": 52,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 6,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 6.4,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 6.4,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 6.4,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:18:52.735939+00:00",
+    "thumbnailUrl": "/uploads/197e1f7199a8422d82ebf9e4d91d6438.png"
+  },
+  {
+    "id": "ad22e6a7-ba8f-4423-9340-b8ac75f49c28",
+    "filename": "78563f28116145a787caed3954c6f525.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "model": null,
+    "createdAt": "2026-08-19T16:18:54.874793+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "f341ba8b-5efc-4b74-b71c-e3d766a24761",
+    "filename": "f8373f33f0264079af628c7e131c1180.png",
+    "originalFilename": "ai-generated-fake.png",
+    "mediaType": "image",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 26,
+    "realProbability": 74,
+    "manipulationProbability": 16,
+    "uncertainProbability": 52,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 6,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 6.4,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 6.4,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 6.4,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:19:12.456857+00:00",
+    "thumbnailUrl": "/uploads/f8373f33f0264079af628c7e131c1180.png"
+  },
+  {
+    "id": "e66b9951-9128-4bb9-aaff-e78bd06563e5",
+    "filename": "84be1cd7ca854b82b9f0943fce7c3d12.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "completed",
+    "aiProbability": 28,
+    "realProbability": 72,
+    "manipulationProbability": 17,
+    "uncertainProbability": 56,
+    "verdict": "LIKELY_AUTHENTIC",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 21,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 30,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis indicates this content is likely authentic with low AI probability (28%).",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "LOW",
+      "recommendation": "Content characteristics align with physical optical camera capture.",
+      "explanation": "Natural Poisson-Gaussian noise distributions and spectral power decay strongly support authentic origin."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0157,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 19.6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 20.7,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 23.3,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:22:24.960406+00:00",
+    "thumbnailUrl": "/uploads/84be1cd7ca854b82b9f0943fce7c3d12.jpg"
+  },
+  {
+    "id": "514eded1-07d4-40e1-b1a0-2ee1a4017ac0",
+    "filename": "391483f4d5f0450299340637e2d80ab3.jpg",
+    "originalFilename": "WIN_20260110_08_02_49_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 128429,
+    "status": "completed",
+    "aiProbability": 28,
+    "realProbability": 72,
+    "manipulationProbability": 17,
+    "uncertainProbability": 56,
+    "verdict": "LIKELY_AUTHENTIC",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 21,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 30,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis indicates this content is likely authentic with low AI probability (28%).",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "LOW",
+      "recommendation": "Content characteristics align with physical optical camera capture.",
+      "explanation": "Natural Poisson-Gaussian noise distributions and spectral power decay strongly support authentic origin."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0157,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 19.6,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 20.7,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 23.3,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:22:25.748006+00:00",
+    "thumbnailUrl": "/uploads/391483f4d5f0450299340637e2d80ab3.jpg"
+  },
+  {
+    "id": "7af4c578-4bc5-49ec-a559-10061a061b16",
+    "filename": "71ffbac5eb0f4df7912bdb0c3fa14249.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 26,
+    "realProbability": 74,
+    "manipulationProbability": 16,
+    "uncertainProbability": 52,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 6,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 6.4,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 6.4,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 6.4,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:27:10.736452+00:00",
+    "thumbnailUrl": "/uploads/71ffbac5eb0f4df7912bdb0c3fa14249.png"
+  },
+  {
+    "id": "2183a093-42f4-4e7b-9fce-435cfae51299",
+    "filename": "b742f94c5cb34672808aa78c5bf070a9.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "model": null,
+    "createdAt": "2026-08-19T16:27:12.855713+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "bb326d90-7992-4668-a572-b481fadf72f7",
+    "filename": "187d040783924a7384ebc20ae0e8e66f.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 30,
+    "realProbability": 70,
+    "manipulationProbability": 18,
+    "uncertainProbability": 60,
+    "verdict": "LIKELY_AUTHENTIC",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 25,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 26,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis indicates this content is likely authentic with low AI probability (30%).",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "LOW",
+      "recommendation": "Content characteristics align with physical optical camera capture.",
+      "explanation": "Natural Poisson-Gaussian noise distributions and spectral power decay strongly support authentic origin."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0266,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 22.3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 23.4,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 28.4,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:27:51.210355+00:00",
+    "thumbnailUrl": "/uploads/187d040783924a7384ebc20ae0e8e66f.jpg"
+  },
+  {
+    "id": "d68d9f99-9503-470d-af09-a0c40ba3f107",
+    "filename": "6c23e2dc776b445480e89d8102f98905.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 30,
+    "realProbability": 70,
+    "manipulationProbability": 18,
+    "uncertainProbability": 60,
+    "verdict": "LIKELY_AUTHENTIC",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 25,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 26,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis indicates this content is likely authentic with low AI probability (30%).",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "LOW",
+      "recommendation": "Content characteristics align with physical optical camera capture.",
+      "explanation": "Natural Poisson-Gaussian noise distributions and spectral power decay strongly support authentic origin."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0266,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 22.3,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 23.4,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 28.4,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T16:27:52.130533+00:00",
+    "thumbnailUrl": "/uploads/6c23e2dc776b445480e89d8102f98905.jpg"
   }
 ]

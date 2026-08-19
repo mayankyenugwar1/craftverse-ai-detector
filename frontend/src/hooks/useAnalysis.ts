@@ -4,7 +4,7 @@ import { analyzeFile, getHistory, getHistoryItem, deleteAnalysis, generateReport
 export const useAnalyze = () => {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationFn: analyzeFile,
+    mutationFn: (file: File) => analyzeFile(file),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['history'] });
     },

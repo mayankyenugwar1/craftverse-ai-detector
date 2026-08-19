@@ -6,6 +6,7 @@ import { ROUTES } from './lib/constants';
 import { Navbar } from './components/Navbar';
 import { BackgroundEffects } from './components/BackgroundEffects';
 import { Footer } from './components/Footer';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 import { LandingPage } from './pages/LandingPage';
 import { DetectPage } from './pages/DetectPage';
@@ -23,16 +24,18 @@ const App: React.FC = () => {
       <Navbar />
       
       <main className="flex-1 flex flex-col pt-24 z-10 relative">
-        <AnimatePresence mode="wait">
-          <Routes location={location} key={location.pathname}>
-            <Route path={ROUTES.HOME} element={<LandingPage />} />
-            <Route path={ROUTES.DETECT} element={<DetectPage />} />
-            <Route path={ROUTES.HISTORY} element={<HistoryPage />} />
-            <Route path="/history/:id" element={<HistoryDetailPage />} />
-            <Route path={ROUTES.REPORT} element={<ReportPage />} />
-            <Route path={ROUTES.HOW_IT_WORKS} element={<HowItWorksPage />} />
-          </Routes>
-        </AnimatePresence>
+        <ErrorBoundary>
+          <AnimatePresence mode="wait">
+            <Routes location={location} key={location.pathname}>
+              <Route path={ROUTES.HOME} element={<LandingPage />} />
+              <Route path={ROUTES.DETECT} element={<DetectPage />} />
+              <Route path={ROUTES.HISTORY} element={<HistoryPage />} />
+              <Route path="/history/:id" element={<HistoryDetailPage />} />
+              <Route path={ROUTES.REPORT} element={<ReportPage />} />
+              <Route path={ROUTES.HOW_IT_WORKS} element={<HowItWorksPage />} />
+            </Routes>
+          </AnimatePresence>
+        </ErrorBoundary>
       </main>
 
       <Footer />

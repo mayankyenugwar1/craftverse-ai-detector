@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Activity, CheckCircle2, Circle, Radio, Film, Sparkles } from 'lucide-react';
+import { Activity, CheckCircle2, Circle, Radio, Film, Sparkles, Shield } from 'lucide-react';
 import { analyzeFile } from '../services/api';
 import { AnalysisResult } from '../types';
 import { GlassCard } from './GlassCard';
@@ -77,7 +77,16 @@ export const AnalysisScanner: React.FC<AnalysisScannerProps> = ({ file, onComple
         if (!isMounted) return;
         clearInterval(stageInterval);
         clearInterval(progressInterval);
-        onError(err.response?.data?.detail || err.message || 'Analysis could not be completed.');
+        const detail = err.response?.data?.detail;
+        let message = 'Analysis could not be completed.';
+        if (typeof detail === 'object' && detail !== null && detail.message) {
+          message = detail.message;
+        } else if (typeof detail === 'string') {
+          message = detail;
+        } else if (err.message) {
+          message = err.message;
+        }
+        onError(message);
       }
     };
 
@@ -106,21 +115,28 @@ export const AnalysisScanner: React.FC<AnalysisScannerProps> = ({ file, onComple
 
       {/* Main Viewport */}
       <div className="relative aspect-video bg-black flex items-center justify-center overflow-hidden">
-        {isVideo ? (
-          <video
-            src={previewUrl}
-            className="w-full h-full object-contain opacity-80"
-            muted
-            loop
-            autoPlay
-            playsInline
-          />
+        {previewUrl ? (
+          isVideo ? (
+            <video
+              src={previewUrl}
+              className="w-full h-full object-contain opacity-80"
+              muted
+              loop
+              autoPlay
+              playsInline
+            />
+          ) : (
+            <img
+              src={previewUrl}
+              className="w-full h-full object-contain opacity-80"
+              alt="Scanning target"
+            />
+          )
         ) : (
-          <img
-            src={previewUrl}
-            className="w-full h-full object-contain opacity-80"
-            alt="Scanning target"
-          />
+          <div className="text-beige-600 text-sm font-mono flex flex-col items-center gap-2">
+            <Shield className="w-8 h-8 text-beige-700" />
+            <span>Scanning File...</span>
+          </div>
         )}
 
         {/* Laser Scanline Beam in Champagne */}

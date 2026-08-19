@@ -121,7 +121,7 @@ export const UploadDropzone: React.FC<UploadDropzoneProps> = ({ onFileSelect, di
         </motion.div>
 
         <h3 className="text-2xl sm:text-3xl font-extrabold text-[#FAF6EE] mb-2 tracking-tight">
-          Drop an image or video here
+          Drop your media here
         </h3>
         <p className="text-beige-400 text-sm sm:text-base mb-8 max-w-sm font-normal">
           or browse from your device

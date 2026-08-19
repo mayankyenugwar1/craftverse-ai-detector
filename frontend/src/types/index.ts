@@ -50,6 +50,14 @@ export interface AnalysisResult {
   suspiciousFrames?: SuspiciousFrame[];
   explanation?: AIExplanation;
   metadata?: MediaMetadata;
+  analysisMode?: 'demo' | 'live';
+  model?: {
+    name?: string;
+    engine?: string;
+    model_loaded?: boolean;
+    fallback_used?: boolean;
+    version?: string;
+  };
   createdAt: string;
   thumbnailUrl?: string;
 }

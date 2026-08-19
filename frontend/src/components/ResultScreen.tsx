@@ -6,15 +6,14 @@ import {
   RefreshCw,
   Download,
   Share2,
-  Sparkles,
   Shield,
-  CheckCircle2,
   ChevronDown,
   ChevronUp,
   Info,
   Film,
   X,
   Maximize2,
+  HelpCircle,
 } from 'lucide-react';
 import { AnalysisResult, SuspiciousFrame } from '../types';
 import { VERDICT_CONFIG } from '../lib/constants';
@@ -60,7 +59,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
     if (navigator.share) {
       navigator.share({
         title: 'CraftVerse AI Forensic Report',
-        text: `Analysis for ${result.originalFilename}: ${result.verdict} (${result.aiProbability}% AI Likelihood)`,
+        text: `Analysis for ${result.originalFilename}: ${config.label} (${result.aiProbability}% AI Likelihood)`,
         url: window.location.href,
       }).catch(() => {});
     } else {
@@ -88,11 +87,23 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
       {/* Top Header Bar: Analysis Complete + Action Buttons */}
       <motion.div variants={fadeUp} className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-[#E8D3A8]/10">
         <div>
-          <div className="flex items-center gap-2 mb-1">
+          <div className="flex flex-wrap items-center gap-2 mb-1">
             <CheckCircle className="w-5 h-5 text-beige-200" />
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#FAF6EE] tracking-tight">
               Analysis Complete
             </h2>
+            <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold uppercase tracking-wider glass-badge border-[#E8D3A8]/20 bg-dark-950 text-beige-300">
+              {result.analysisMode === 'live' ? 'Live Analysis' : 'Demo Analysis'}
+            </span>
+            {result.model?.fallback_used ? (
+              <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold uppercase tracking-wider border border-amber-500/30 bg-amber-950/40 text-amber-300" title="Fallbacks are baseline heuristic signals, not a fine-tuned deep model.">
+                Fallback Engine Active
+              </span>
+            ) : (
+              <span className="px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold uppercase tracking-wider border border-emerald-500/30 bg-emerald-950/40 text-emerald-300">
+                Model: {result.model?.engine || 'craftverse-onnx-vit-v1'}
+              </span>
+            )}
           </div>
           <p className="text-beige-400 text-xs sm:text-sm font-mono">
             ID: <span className="text-beige-300">{result.id.slice(0, 18)}...</span> • {new Date(result.createdAt).toLocaleString()}
@@ -169,7 +180,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
               <VerdictBadge verdict={result.verdict} size="lg" />
               <div className="flex items-center gap-2 text-xs font-mono text-beige-400 mt-1">
                 <span>Confidence:</span>
-                <span className="font-bold text-beige-100 uppercase tracking-wider px-2 py-0.5 rounded glass-badge border-[#E8D3A8]/20 bg-dark-950">
+                <span className="font-bold text-beige-100 uppercase tracking-wider px-2.5 py-0.5 rounded glass-badge border-[#E8D3A8]/20 bg-dark-950">
                   {result.confidence}
                 </span>
               </div>
@@ -177,7 +188,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
           </GlassCard>
         </motion.div>
 
-        {/* Right Column: Timeline, Detection Indicators, AI Explanation */}
+        {/* Right Column: Timeline, Why Section, Detection Indicators, AI Explanation */}
         <motion.div variants={fadeUp} className="lg:col-span-2 space-y-6">
           {/* Video Suspicious Timeline (if video) */}
           {result.mediaType === 'video' && result.suspiciousFrames && result.suspiciousFrames.length > 0 && (
@@ -220,12 +231,18 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
             </GlassCard>
           )}
 
-          {/* Detection Indicators */}
+          {/* Why this result? & Detection Indicators */}
           <GlassCard className="p-6 border border-[#E8D3A8]/15 bg-dark-900/85">
-            <h3 className="text-base font-bold text-white mb-4 flex items-center gap-2">
-              <Shield className="w-4 h-4 text-beige-200" />
-              <span>Detection Indicators</span>
-            </h3>
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-base font-bold text-white flex items-center gap-2">
+                <HelpCircle className="w-4 h-4 text-beige-200" />
+                <span>Why this result?</span>
+              </h3>
+              <span className="text-xs font-mono text-beige-400">
+                Key Authenticity Signals
+              </span>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {result.indicators?.map((indicator, index) => (
                 <DetectionIndicator
@@ -242,14 +259,14 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
           {result.explanation ? (
             <ExplanationCard explanation={result.explanation} />
           ) : (
-            <div className="p-5 rounded-2xl glass border border-[#E8D3A8]/10 text-xs text-beige-500 font-mono bg-dark-900">
-              AI explanation layer unavailable for this run.
+            <div className="p-5 rounded-2xl glass border border-[#E8D3A8]/10 text-xs text-beige-400 font-mono bg-dark-900">
+              AI explanation is temporarily unavailable.
             </div>
           )}
         </motion.div>
       </div>
 
-      {/* Expandable Technical Information / Metadata Drawer */}
+      {/* Expandable Technical Details Drawer */}
       <motion.div variants={fadeUp}>
         <GlassCard className="p-6 border border-[#E8D3A8]/15 bg-dark-900/85">
           <button
@@ -258,7 +275,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
           >
             <span className="flex items-center gap-2">
               <Info className="w-4 h-4 text-beige-200" />
-              <span>Technical Information & Forensic Metadata</span>
+              <span>Technical Details</span>
             </span>
             {showMetadata ? <ChevronUp className="w-4 h-4 text-beige-400" /> : <ChevronDown className="w-4 h-4 text-beige-400" />}
           </button>
@@ -272,20 +289,20 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, file, onAnal
                 className="mt-4 pt-4 border-t border-[#E8D3A8]/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-mono"
               >
                 <div>
-                  <span className="text-beige-500 block">Analysis UUID</span>
-                  <span className="text-beige-200 truncate block">{result.id}</span>
+                  <span className="text-beige-500 block">Filename</span>
+                  <span className="text-beige-200 truncate block" title={result.originalFilename}>{result.originalFilename}</span>
                 </div>
                 <div>
-                  <span className="text-beige-500 block">File MIME</span>
-                  <span className="text-beige-200 block">{result.mimeType}</span>
+                  <span className="text-beige-500 block">Media Type</span>
+                  <span className="text-beige-200 block capitalize">{result.mediaType} ({result.mimeType})</span>
                 </div>
                 <div>
-                  <span className="text-beige-500 block">Generator Signal</span>
-                  <span className="text-beige-200 block">{result.generator || 'Standard Pattern'}</span>
+                  <span className="text-beige-500 block">File Size</span>
+                  <span className="text-beige-200 block">{formatBytes(result.fileSize)}</span>
                 </div>
                 <div>
-                  <span className="text-beige-500 block">Timestamp</span>
-                  <span className="text-beige-200 block">{new Date(result.createdAt).toISOString()}</span>
+                  <span className="text-beige-500 block">Analysis ID</span>
+                  <span className="text-beige-200 truncate block" title={result.id}>{result.id}</span>
                 </div>
               </motion.div>
             )}

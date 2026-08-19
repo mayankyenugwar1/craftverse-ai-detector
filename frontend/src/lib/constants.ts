@@ -14,13 +14,11 @@ export const ROUTES = {
 };
 
 export const ANALYSIS_STEPS = [
-  'Uploading media...',
-  'Reading media structure...',
-  'Scanning visual patterns...',
-  'Checking synthetic artifacts...',
-  'Evaluating authenticity signals...',
-  'Generating forensic explanation...',
-  'Finalizing result...',
+  'Reading media',
+  'Scanning patterns',
+  'Checking artifacts',
+  'Evaluating authenticity',
+  'Generating report',
 ];
 
 export const VERDICT_CONFIG: Record<string, { color: string; bgClass: string; textClass: string; borderClass: string; label: string }> = {
@@ -29,7 +27,7 @@ export const VERDICT_CONFIG: Record<string, { color: string; bgClass: string; te
     bgClass: 'bg-beige-200/10',
     textClass: 'text-beige-200',
     borderClass: 'border-beige-200/30',
-    label: 'AI Generated',
+    label: 'Likely AI-generated',
   },
   LIKELY_AUTHENTIC: {
     color: '#F3E7CE',
@@ -43,7 +41,7 @@ export const VERDICT_CONFIG: Record<string, { color: string; bgClass: string; te
     bgClass: 'bg-beige-400/10',
     textClass: 'text-beige-300',
     borderClass: 'border-beige-400/30',
-    label: 'Manipulated',
+    label: 'Potentially Manipulated',
   },
   UNCERTAIN: {
     color: '#BBAF98',

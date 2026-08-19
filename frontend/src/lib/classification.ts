@@ -25,11 +25,11 @@ export const getVerdictColor = (verdict: Verdict) => {
 export const getVerdictLabel = (verdict: Verdict) => {
   switch (verdict) {
     case 'AI_GENERATED':
-      return 'AI Generated';
+      return 'Likely AI-generated';
     case 'LIKELY_AUTHENTIC':
       return 'Likely Authentic';
     case 'MANIPULATED':
-      return 'Manipulated';
+      return 'Potentially Manipulated';
     case 'UNCERTAIN':
       return 'Uncertain';
     default:

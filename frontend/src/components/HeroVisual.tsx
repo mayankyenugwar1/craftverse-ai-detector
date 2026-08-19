@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Shield, Sparkles, Scan, CheckCircle2, Activity, ShieldCheck } from 'lucide-react';
+import { Shield, Sparkles, Scan, CheckCircle2, ShieldCheck } from 'lucide-react';
 
 export const HeroVisual: React.FC = () => {
   const signalBadges = [
@@ -8,154 +8,156 @@ export const HeroVisual: React.FC = () => {
       icon: Scan,
       label: 'Scanning Patterns',
       color: 'text-beige-200',
-      border: 'border-[#E8D3A8]/25',
-      glow: 'shadow-[0_0_15px_rgba(232,211,168,0.1)]',
-      position: 'top-2 -left-4 md:-top-4 md:-left-8',
+      border: 'border-[#E8D3A8]/20',
+      glow: 'shadow-[0_0_15px_rgba(232,211,168,0.08)]',
+      position: 'top-3 -left-4 md:-top-3 md:-left-8',
       delay: 0,
-      duration: 6,
+      duration: 7,
     },
     {
       icon: Sparkles,
       label: 'Synthetic Artifacts',
       color: 'text-beige-300',
-      border: 'border-[#C8A96B]/25',
-      glow: 'shadow-[0_0_15px_rgba(200,169,107,0.1)]',
-      position: 'top-10 -right-4 md:top-6 md:-right-10',
-      delay: 1.4,
-      duration: 6.5,
+      border: 'border-[#C8A96B]/20',
+      glow: 'shadow-[0_0_15px_rgba(200,169,107,0.08)]',
+      position: 'top-8 -right-4 md:top-6 md:-right-8',
+      delay: 1.8,
+      duration: 8.5,
     },
     {
       icon: ShieldCheck,
       label: 'Authenticity Check',
       color: 'text-beige-100',
-      border: 'border-[#F3E7CE]/25',
-      glow: 'shadow-[0_0_15px_rgba(243,231,206,0.1)]',
-      position: 'bottom-8 -left-2 md:bottom-6 md:-left-10',
-      delay: 2.6,
-      duration: 5.8,
-    },
-    {
-      icon: CheckCircle2,
-      label: 'Verified Signal 98%',
-      color: 'text-beige-200',
-      border: 'border-[#E8D3A8]/25',
-      glow: 'shadow-[0_0_15px_rgba(232,211,168,0.1)]',
-      position: 'bottom-2 -right-4 md:-bottom-4 md:-right-8',
-      delay: 2.0,
-      duration: 7,
+      border: 'border-[#F3E7CE]/20',
+      glow: 'shadow-[0_0_15px_rgba(243,231,206,0.08)]',
+      position: 'bottom-4 -left-2 md:bottom-2 md:-left-8',
+      delay: 3.2,
+      duration: 6.5,
     },
   ];
 
   return (
     <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-[440px] md:h-[440px] flex items-center justify-center select-none">
       {/* Ambient Warm Backlight Glow */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-[#E8D3A8]/[0.08] via-[#C8A96B]/[0.06] to-transparent blur-[100px] rounded-full mix-blend-screen animate-pulse-slow" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-[#E8D3A8]/[0.06] via-[#C8A96B]/[0.04] to-transparent blur-[100px] rounded-full mix-blend-screen animate-pulse-slow pointer-events-none" />
 
       {/* SVG Neural/Connecting Network & Orbit Rings */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 440 440">
         <defs>
           <linearGradient id="beigeOrbitGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#E8D3A8" stopOpacity="0.25" />
-            <stop offset="50%" stopColor="#C8A96B" stopOpacity="0.08" />
-            <stop offset="100%" stopColor="#FAF6EE" stopOpacity="0.25" />
+            <stop offset="0%" stopColor="#E8D3A8" stopOpacity="0.22" />
+            <stop offset="50%" stopColor="#C8A96B" stopOpacity="0.06" />
+            <stop offset="100%" stopColor="#FAF6EE" stopOpacity="0.22" />
           </linearGradient>
           <linearGradient id="beigeOrbitGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#C8A96B" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="#E8D3A8" stopOpacity="0.08" />
+            <stop offset="0%" stopColor="#C8A96B" stopOpacity="0.18" />
+            <stop offset="100%" stopColor="#E8D3A8" stopOpacity="0.06" />
           </linearGradient>
           <linearGradient id="beigePathGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#E8D3A8" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="#C8A96B" stopOpacity="0.3" />
+            <stop offset="0%" stopColor="#E8D3A8" stopOpacity="0.25" />
+            <stop offset="100%" stopColor="#C8A96B" stopOpacity="0.25" />
           </linearGradient>
         </defs>
 
         {/* Outer Orbit Ring */}
-        <motion.circle
-          cx="220"
-          cy="220"
-          r="195"
-          fill="none"
-          stroke="url(#beigeOrbitGrad1)"
-          strokeWidth="1"
-          strokeDasharray="4 8"
+        <motion.g
           animate={{ rotate: 360 }}
-          transition={{ duration: 75, repeat: Infinity, ease: 'linear' }}
-          style={{ transformOrigin: 'center' }}
-        />
+          transition={{ duration: 85, repeat: Infinity, ease: 'linear' }}
+          style={{ transformOrigin: '220px 220px' }}
+        >
+          <circle
+            cx={220}
+            cy={220}
+            r={195}
+            fill="none"
+            stroke="url(#beigeOrbitGrad1)"
+            strokeWidth={1}
+            strokeDasharray="4 8"
+          />
+        </motion.g>
 
         {/* Middle Orbit Ring */}
-        <motion.circle
-          cx="220"
-          cy="220"
-          r="150"
-          fill="none"
-          stroke="url(#beigeOrbitGrad2)"
-          strokeWidth="1"
-          strokeDasharray="6 12"
+        <motion.g
           animate={{ rotate: -360 }}
-          transition={{ duration: 55, repeat: Infinity, ease: 'linear' }}
-          style={{ transformOrigin: 'center' }}
-        />
+          transition={{ duration: 65, repeat: Infinity, ease: 'linear' }}
+          style={{ transformOrigin: '220px 220px' }}
+        >
+          <circle
+            cx={220}
+            cy={220}
+            r={150}
+            fill="none"
+            stroke="url(#beigeOrbitGrad2)"
+            strokeWidth={1}
+            strokeDasharray="6 12"
+          />
+        </motion.g>
 
         {/* Inner Solid Tech Ring */}
         <circle
-          cx="220"
-          cy="220"
-          r="105"
+          cx={220}
+          cy={220}
+          r={105}
           fill="none"
           stroke="rgba(232, 211, 168, 0.08)"
-          strokeWidth="1"
+          strokeWidth={1}
         />
 
         {/* Connecting Geometric Lines from Center to Perimeter */}
-        <line x1="220" y1="115" x2="220" y2="25" stroke="url(#beigePathGrad)" strokeWidth="1" strokeDasharray="2 4" opacity="0.45" />
-        <line x1="220" y1="325" x2="220" y2="415" stroke="url(#beigePathGrad)" strokeWidth="1" strokeDasharray="2 4" opacity="0.45" />
-        <line x1="115" y1="220" x2="25" y2="220" stroke="url(#beigePathGrad)" strokeWidth="1" strokeDasharray="2 4" opacity="0.45" />
-        <line x1="325" y1="220" x2="415" y2="220" stroke="url(#beigePathGrad)" strokeWidth="1" strokeDasharray="2 4" opacity="0.45" />
+        <line x1={220} y1={115} x2={220} y2={25} stroke="url(#beigePathGrad)" strokeWidth={1} strokeDasharray="2 4" opacity={0.35} />
+        <line x1={220} y1={325} x2={220} y2={415} stroke="url(#beigePathGrad)" strokeWidth={1} strokeDasharray="2 4" opacity={0.35} />
+        <line x1={115} y1={220} x2={25} y2={220} stroke="url(#beigePathGrad)" strokeWidth={1} strokeDasharray="2 4" opacity={0.35} />
+        <line x1={325} y1={220} x2={415} y2={220} stroke="url(#beigePathGrad)" strokeWidth={1} strokeDasharray="2 4" opacity={0.35} />
 
         {/* Traveling Energy Pulse Particles on Paths */}
-        <motion.circle
-          cx="220"
-          cy="115"
-          r="2"
-          fill="#F3E7CE"
-          animate={{ cy: [115, 25, 115], opacity: [0.2, 0.85, 0.2] }}
-          transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
-        />
-        <motion.circle
-          cx="325"
-          cy="220"
-          r="2"
-          fill="#E8D3A8"
-          animate={{ cx: [325, 415, 325], opacity: [0.2, 0.85, 0.2] }}
-          transition={{ duration: 5.5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-        />
+        <motion.g
+          animate={{ y: [0, -90, 0], opacity: [0.15, 0.8, 0.15] }}
+          transition={{ duration: 5.5, repeat: Infinity, ease: 'easeInOut' }}
+        >
+          <circle
+            cx={220}
+            cy={115}
+            r={2}
+            fill="#F3E7CE"
+          />
+        </motion.g>
+        <motion.g
+          animate={{ x: [0, 90, 0], opacity: [0.15, 0.8, 0.15] }}
+          transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 1.2 }}
+        >
+          <circle
+            cx={325}
+            cy={220}
+            r={2}
+            fill="#E8D3A8"
+          />
+        </motion.g>
       </svg>
 
       {/* Orbiting Tech Nodes */}
       <motion.div
         className="absolute inset-0 flex items-center justify-center pointer-events-none"
         animate={{ rotate: 360 }}
-        transition={{ duration: 45, repeat: Infinity, ease: 'linear' }}
+        transition={{ duration: 55, repeat: Infinity, ease: 'linear' }}
       >
-        <div className="absolute top-[25px] w-2.5 h-2.5 rounded-full bg-beige-200 shadow-[0_0_10px_#E8D3A8]" />
-        <div className="absolute bottom-[25px] w-2 h-2 rounded-full bg-beige-400 shadow-[0_0_10px_#C8A96B]" />
+        <div className="absolute top-[25px] w-2 h-2 rounded-full bg-beige-200 shadow-[0_0_8px_#E8D3A8]" />
+        <div className="absolute bottom-[25px] w-1.5 h-1.5 rounded-full bg-beige-400 shadow-[0_0_8px_#C8A96B]" />
       </motion.div>
 
       <motion.div
         className="absolute inset-0 flex items-center justify-center pointer-events-none"
         animate={{ rotate: -360 }}
-        transition={{ duration: 35, repeat: Infinity, ease: 'linear' }}
+        transition={{ duration: 45, repeat: Infinity, ease: 'linear' }}
       >
-        <div className="absolute right-[70px] top-[120px] w-2 h-2 rounded-full bg-beige-100 shadow-[0_0_8px_#F3E7CE]" />
-        <div className="absolute left-[70px] bottom-[120px] w-2 h-2 rounded-full bg-beige-300 shadow-[0_0_8px_#D4BE8D]" />
+        <div className="absolute right-[70px] top-[120px] w-1.5 h-1.5 rounded-full bg-beige-100 shadow-[0_0_6px_#F3E7CE]" />
+        <div className="absolute left-[70px] bottom-[120px] w-1.5 h-1.5 rounded-full bg-beige-300 shadow-[0_0_6px_#D4BE8D]" />
       </motion.div>
 
       {/* Central Floating AI Forensic Verification Core */}
       <motion.div
         className="relative z-10 flex items-center justify-center"
         animate={{
-          y: [0, -8, 0],
+          y: [0, -6, 0],
         }}
         transition={{
           duration: 7,
@@ -172,13 +174,13 @@ export const HeroVisual: React.FC = () => {
           <div className="relative z-10 flex flex-col items-center justify-center">
             <div className="relative">
               <Shield
-                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 text-beige-100 drop-shadow-[0_0_20px_rgba(232,211,168,0.35)]"
+                className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 text-beige-100 drop-shadow-[0_0_20px_rgba(232,211,168,0.3)]"
                 strokeWidth={1.25}
               />
               {/* Internal Forensic Check */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <CheckCircle2
-                  className="w-8 h-8 sm:w-10 sm:h-10 text-beige-300 drop-shadow-[0_0_10px_rgba(212,190,141,0.5)]"
+                  className="w-8 h-8 sm:w-10 sm:h-10 text-beige-300 drop-shadow-[0_0_10px_rgba(212,190,141,0.4)]"
                   strokeWidth={1.75}
                 />
               </div>
@@ -220,7 +222,7 @@ export const HeroVisual: React.FC = () => {
             animate={{
               opacity: 1,
               scale: 1,
-              y: [0, -5, 0],
+              y: [0, -4, 0],
             }}
             transition={{
               opacity: { duration: 0.8, delay: idx * 0.2 },

@@ -5,10 +5,12 @@ import { GlowButton } from './GlowButton';
 import { clsx } from 'clsx';
 import { ROUTES } from '../lib/constants';
 import { motion, AnimatePresence } from 'framer-motion';
+import { getHealthStatus } from '../services/api';
 
 export const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isDemoMode, setIsDemoMode] = useState<boolean>(true);
   const location = useLocation();
 
   useEffect(() => {
@@ -17,6 +19,18 @@ export const Navbar: React.FC = () => {
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    getHealthStatus()
+      .then((health) => {
+        if (health && typeof health.demoMode === 'boolean') {
+          setIsDemoMode(health.demoMode);
+        }
+      })
+      .catch(() => {
+        setIsDemoMode(true);
+      });
   }, []);
 
   const navLinks = [
@@ -85,12 +99,15 @@ export const Navbar: React.FC = () => {
 
           {/* Action CTA & Engine Status */}
           <div className="hidden md:flex items-center gap-4">
-            <div className="flex items-center gap-2 px-3 py-1 rounded-full glass-badge border-[#E8D3A8]/15 text-beige-300 text-[11px] font-mono">
+            <div
+              className="flex items-center gap-2 px-3 py-1 rounded-full glass-badge border-[#E8D3A8]/15 text-beige-300 text-[11px] font-mono"
+              title={isDemoMode ? 'Running in deterministic demo mode' : 'Connected to live detection provider'}
+            >
               <span className="w-1.5 h-1.5 rounded-full bg-beige-300 animate-pulse" />
-              <span>Engine Active</span>
+              <span>{isDemoMode ? 'Demo Engine Active' : 'Detection Engine Active'}</span>
             </div>
             <GlowButton href={ROUTES.DETECT} size="sm">
-              <Sparkles className="w-3.5 h-3.5 mr-1.5 text-beige-300" />
+              <Sparkles className="w-3.5 h-3.5 mr-1.5 text-dark-950" />
               Analyze
             </GlowButton>
           </div>

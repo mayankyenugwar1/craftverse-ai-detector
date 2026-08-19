@@ -8,11 +8,18 @@ ALLOWED_IMAGE_TYPES = {"image/jpeg", "image/png", "image/webp"}
 ALLOWED_VIDEO_TYPES = {"video/mp4", "video/quicktime", "video/webm"}
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".mp4", ".mov", ".webm"}
 
-def get_media_type(mime: str) -> str:
+def get_media_type(mime: str, filename: str = "") -> str:
     if mime in ALLOWED_IMAGE_TYPES:
         return "image"
     if mime in ALLOWED_VIDEO_TYPES:
         return "video"
+    # Fallback: infer from file extension when MIME is generic
+    if filename:
+        ext = os.path.splitext(filename)[1].lower()
+        if ext in {".jpg", ".jpeg", ".png", ".webp"}:
+            return "image"
+        if ext in {".mp4", ".mov", ".webm"}:
+            return "video"
     return "unknown"
 
 async def validate_file(file: UploadFile):
@@ -21,7 +28,14 @@ async def validate_file(file: UploadFile):
         
     ext = os.path.splitext(file.filename)[1].lower()
     if ext not in ALLOWED_EXTENSIONS:
-        raise HTTPException(status_code=400, detail=f"Extension {ext} not allowed")
+        raise HTTPException(
+            status_code=415,
+            detail={
+                "error": True,
+                "code": "UNSUPPORTED_FILE",
+                "message": f"File extension '{ext}' is not supported. Please upload JPG, PNG, WEBP, MP4, MOV, or WEBM."
+            }
+        )
         
     # Smart MIME inference if client sends generic octet-stream
     content_type = file.content_type or ""
