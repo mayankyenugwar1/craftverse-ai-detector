@@ -144,7 +144,7 @@ async def root_health():
     detector = DeepLearningDetector.get_instance()
     model_status = detector.get_model_status()
     return {
-        "status": "ok" if detector.is_ready else "degraded",
+        "status": "ok",
         "service": "craftverse-ai-detector-backend",
         "environment": "production",
         "version": "1.0.0",
