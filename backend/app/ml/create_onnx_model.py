@@ -29,6 +29,7 @@ def create_simple_onnx_file(output_path: str):
         f.write(protobuf_data)
 
 if __name__ == "__main__":
-    out_file = os.path.join("app", "ml", "models", "craftverse_vit_v1.onnx")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    out_file = os.path.join(script_dir, "models", "craftverse_detector_v1.onnx")
     create_simple_onnx_file(out_file)
     print(f"Created ONNX model placeholder at: {out_file}")

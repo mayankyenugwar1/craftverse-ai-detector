@@ -4438,5 +4438,215 @@
     "model": null,
     "createdAt": "2026-08-19T17:47:24.452283+00:00",
     "thumbnailUrl": null
+  },
+  {
+    "id": "eefce9aa-53ef-4684-858a-f6648f519687",
+    "filename": "81444540f2a845c4be42172638deb4b4.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 26,
+    "realProbability": 74,
+    "manipulationProbability": 16,
+    "uncertainProbability": 52,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 6,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 6.4,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 6.4,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 6.4,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T17:48:25.846192+00:00",
+    "thumbnailUrl": "/uploads/81444540f2a845c4be42172638deb4b4.png"
+  },
+  {
+    "id": "328240ef-9e7f-4d0f-914f-b579a7f3aede",
+    "filename": "c1e93c2020f34fa8a3f828e90840191b.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "model": null,
+    "createdAt": "2026-08-19T17:48:27.962892+00:00",
+    "thumbnailUrl": null
+  },
+  {
+    "id": "9cad0ca3-e549-479c-bbfd-3112f9d66593",
+    "filename": "c8d216167ce74e55a143b2b27f46f032.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 26,
+    "realProbability": 74,
+    "manipulationProbability": 16,
+    "uncertainProbability": 52,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 6,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 6.4,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 6.4,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 6.4,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T17:56:13.808726+00:00",
+    "thumbnailUrl": "/uploads/c8d216167ce74e55a143b2b27f46f032.png"
+  },
+  {
+    "id": "d5e7581f-3eee-46b0-b18e-6d0d518b6e6f",
+    "filename": "f3ceb43ea43c4746b2d4ecfe63f8fe22.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "model": null,
+    "createdAt": "2026-08-19T17:56:15.913006+00:00",
+    "thumbnailUrl": null
   }
 ]

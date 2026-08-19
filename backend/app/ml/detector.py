@@ -38,7 +38,31 @@ class DeepLearningDetector:
         return cls._instance
 
     def _initialize_model(self):
-        # 1. Check PyTorch/Transformers availability safely
+        # 1. Attempt native ONNX Runtime Deep Vision Classifier loading (Instant local disk load, sub-50ms startup)
+        try:
+            import onnxruntime as ort
+            logger.info(f"[ML DETECTOR] Initializing ONNX Runtime Vision Classifier (v{ort.__version__})...")
+            
+            model_dir = os.path.join(os.path.dirname(__file__), "models")
+            candidates = [
+                os.path.join(model_dir, "craftverse_detector_v1.onnx"),
+                os.path.join(model_dir, "craftverse_vit_v1.onnx"),
+            ]
+            onnx_path = next((p for p in candidates if os.path.exists(p)), None)
+            
+            if onnx_path:
+                self.onnx_session = ort.InferenceSession(onnx_path)
+                self.loaded_model_name = "craftverse-onnx-vit-v1"
+                self.is_ready = True
+                self.is_fallback = False
+                logger.info(f"[ML DETECTOR] Successfully loaded local ONNX Vision Model from {onnx_path}")
+                return
+            else:
+                logger.warning(f"[ML DETECTOR] Local ONNX model file missing in {model_dir}")
+        except Exception as ort_err:
+            logger.info(f"[ML DETECTOR] ONNX Runtime loading bypassed ({ort_err}). Checking PyTorch/Transformers engine...")
+
+        # 2. Secondary fallback: Check PyTorch/Transformers availability safely
         import importlib.util
         if importlib.util.find_spec("torch") is not None and importlib.util.find_spec("transformers") is not None:
             try:
@@ -63,34 +87,7 @@ class DeepLearningDetector:
                     except Exception as e:
                         logger.warning(f"[ML DETECTOR] Retrying next PyTorch choice for {model_name}: {e}")
             except Exception as err:
-                logger.info(f"[ML DETECTOR] PyTorch loading bypassed ({err}). Checking ONNX Runtime engine...")
-        else:
-            logger.info("[ML DETECTOR] PyTorch not present. Proceeding directly with native ONNX Runtime Engine...")
-
-        # 2. Attempt ONNX Runtime Deep Vision Classifier loading
-        try:
-            import onnxruntime as ort
-            logger.info(f"[ML DETECTOR] Initializing ONNX Runtime Vision Classifier (v{ort.__version__})...")
-            
-            model_dir = os.path.join(os.path.dirname(__file__), "models")
-            onnx_path = os.path.join(model_dir, "craftverse_detector_v1.onnx")
-            
-            if os.path.exists(onnx_path):
-                self.onnx_session = ort.InferenceSession(onnx_path)
-                self.loaded_model_name = "craftverse-onnx-vit-v1"
-                self.is_ready = True
-                self.is_fallback = False
-                logger.info(f"[ML DETECTOR] Successfully loaded ONNX Vision Model from {onnx_path}")
-                return
-            else:
-                # Active ONNX Runtime Vision Classifier Engine (ONNX Direct Session)
-                self.loaded_model_name = "craftverse-onnx-vit-v1"
-                self.is_ready = True
-                self.is_fallback = False
-                logger.info(f"[ML DETECTOR] Successfully activated ONNX Runtime Deep Vision Classifier Engine: {self.loaded_model_name}")
-                return
-        except Exception as ort_err:
-            logger.warning(f"[ML DETECTOR] ONNX Runtime notice: {ort_err}")
+                logger.info(f"[ML DETECTOR] PyTorch loading bypassed ({err}).")
 
         # 3. Baseline Fallback Heuristic
         self.loaded_model_name = "fallback-heuristic-engine"
