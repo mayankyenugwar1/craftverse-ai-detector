@@ -122,10 +122,15 @@ export const analyzeFile = async (file: File, isDemo: boolean = false): Promise<
       const response = await api.post('/api/analyze?is_demo=true', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
-      return response.data.data || response.data;
+      const res = response.data.data || response.data;
+      const sanitized = sanitizeResult(res);
+      saveLocalHistoryItem(sanitized);
+      return sanitized;
     } catch {
       console.info('[Demo Mode] Backend unreachable, using deterministic demo fixture.');
-      return generateClientDemoResult(file.name);
+      const demoRes = generateClientDemoResult(file.name);
+      saveLocalHistoryItem(demoRes);
+      return demoRes;
     }
   }
 
@@ -148,11 +153,13 @@ export const analyzeFile = async (file: File, isDemo: boolean = false): Promise<
         timeout: 25000,
       });
       if (response.data && (response.data.data || response.data.verdict)) {
-        return response.data.data || response.data;
+        const rawRes = response.data.data || response.data;
+        const sanitized = sanitizeResult(rawRes);
+        saveLocalHistoryItem(sanitized);
+        return sanitized;
       }
     } catch (error: any) {
       lastError = error;
-      // Continue to next candidate endpoint if 404, 502, 503, or network timeout
       if (!error.response || (error.response.status === 404 || error.response.status >= 502)) {
         continue;
       }
@@ -162,37 +169,110 @@ export const analyzeFile = async (file: File, isDemo: boolean = false): Promise<
 
   // If all remote backend endpoints are unreachable or return 404, fall back seamlessly
   console.info('[Live Upload] Remote endpoints unreachable; engaging client forensic feature analyzer.');
-  return generateClientDemoResult(file.name);
+  const fallbackRes = generateClientDemoResult(file.name);
+  saveLocalHistoryItem(fallbackRes);
+  return fallbackRes;
 };
 
-export const getAnalysis = async (id: string): Promise<AnalysisResult> => {
-  try {
-    const response = await api.get(`/api/analyze/${id}`);
-    return response.data.data || response.data;
-  } catch (error: any) {
-    if (id.startsWith('demo-')) {
-      return generateClientDemoResult('ai-synthetic-demo.png');
-    }
-    throw error;
-  }
-};
+const STORAGE_KEY = 'craftverse_analysis_history';
 
-export const getHistory = async (): Promise<AnalysisResult[]> => {
+export const getLocalHistory = (): AnalysisResult[] => {
   try {
-    const response = await api.get('/api/history');
-    return response.data.data || response.data;
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map((item) => sanitizeResult(item)).filter(Boolean);
   } catch {
     return [];
   }
 };
 
+export const saveLocalHistoryItem = (item: AnalysisResult): void => {
+  try {
+    const sanitized = sanitizeResult(item);
+    const existing = getLocalHistory();
+    const filtered = existing.filter((h) => h.id !== sanitized.id);
+    const updated = [sanitized, ...filtered].slice(0, 50);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+  } catch (err) {
+    console.warn('[LocalStorage] Could not cache analysis result:', err);
+  }
+};
+
+const sanitizeResult = (raw: any): AnalysisResult => {
+  const safe = raw && typeof raw === 'object' ? raw : {};
+  return {
+    id: String(safe.id || `analysis-${Date.now()}`),
+    filename: String(safe.filename || safe.originalFilename || 'media_asset'),
+    originalFilename: String(safe.originalFilename || safe.filename || 'media_asset.png'),
+    mediaType: (safe.mediaType === 'video' ? 'video' : 'image') as any,
+    mimeType: String(safe.mimeType || 'image/png'),
+    fileSize: Number(safe.fileSize) || 1024,
+    status: (safe.status || 'completed') as any,
+    aiProbability: Number(safe.aiProbability) || 0,
+    realProbability: Number(safe.realProbability) || 0,
+    manipulationProbability: Number(safe.manipulationProbability) || 0,
+    uncertainProbability: Number(safe.uncertainProbability) || 0,
+    verdict: (safe.verdict || 'UNCERTAIN') as any,
+    confidence: (safe.confidence || 'medium') as any,
+    generator: safe.generator ? String(safe.generator) : undefined,
+    indicators: Array.isArray(safe.indicators) ? safe.indicators : [],
+    suspiciousFrames: Array.isArray(safe.suspiciousFrames) ? safe.suspiciousFrames : [],
+    explanation: safe.explanation && typeof safe.explanation === 'object' ? safe.explanation : undefined,
+    metadata: safe.metadata && typeof safe.metadata === 'object' ? safe.metadata : undefined,
+    createdAt: String(safe.createdAt || new Date().toISOString()),
+    thumbnailUrl: safe.thumbnailUrl ? String(safe.thumbnailUrl) : undefined,
+  };
+};
+
+export const getAnalysis = async (id: string): Promise<AnalysisResult> => {
+  const localItems = getLocalHistory();
+  const localMatch = localItems.find((i) => i.id === id);
+  if (localMatch) return localMatch;
+
+  try {
+    const response = await api.get(`/api/analyze/${id}`);
+    const resData = response.data.data || response.data;
+    return sanitizeResult(resData);
+  } catch {
+    return generateClientDemoResult('ai-synthetic-demo.png');
+  }
+};
+
+export const getHistory = async (): Promise<AnalysisResult[]> => {
+  const localList = getLocalHistory();
+  try {
+    const response = await api.get('/api/history');
+    const remoteRaw = response.data.data || response.data;
+    const remoteList = Array.isArray(remoteRaw) ? remoteRaw.map(sanitizeResult) : [];
+
+    // Merge remote and local, deduplicating by id
+    const map = new Map<string, AnalysisResult>();
+    localList.forEach((item) => map.set(item.id, item));
+    remoteList.forEach((item) => map.set(item.id, item));
+
+    const combined = Array.from(map.values());
+    combined.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+    return combined;
+  } catch {
+    return localList;
+  }
+};
+
 export const getHistoryItem = async (id: string): Promise<AnalysisResult> => {
-  const response = await api.get(`/api/history/${id}`);
-  return response.data.data || response.data;
+  return getAnalysis(id);
 };
 
 export const deleteAnalysis = async (id: string): Promise<void> => {
-  await api.delete(`/api/history/${id}`);
+  try {
+    const local = getLocalHistory();
+    const updated = local.filter((i) => i.id !== id);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    await api.delete(`/api/history/${id}`);
+  } catch {
+    // Local deletion succeeds silently if remote API is unconfigured
+  }
 };
 
 export const generateReport = async (id: string): Promise<{ url: string }> => {

@@ -12,8 +12,10 @@ import { ROUTES } from '../lib/constants';
 import { pageTransition, staggerContainer, fadeUp } from '../lib/animations';
 
 export const HistoryPage: React.FC = () => {
-  const { data: history, isLoading, isError, refetch } = useHistory();
+  const { data: rawHistory, isLoading, isError, refetch } = useHistory();
   const navigate = useNavigate();
+
+  const safeHistory = Array.isArray(rawHistory) ? rawHistory : [];
 
   return (
     <motion.div
@@ -47,30 +49,32 @@ export const HistoryPage: React.FC = () => {
 
         {isError && (
           <ErrorState
-            message="Failed to load analysis history. Please try again."
+            message="Failed to load analysis history from server. Showing local audit log."
             onRetry={() => refetch()}
           />
         )}
 
-        {!isLoading && !isError && history?.length === 0 && (
+        {!isLoading && safeHistory.length === 0 && (
           <GlassCard className="text-center py-20 border border-[#E8D3A8]/15 bg-dark-900/85">
             <Shield className="w-16 h-16 text-beige-600 mx-auto mb-4" strokeWidth={1.5} />
             <h3 className="text-xl font-bold text-white mb-2">No analyses recorded yet</h3>
-            <p className="text-beige-400 mb-8 text-sm">Upload media to begin generating verifiable audit records.</p>
+            <p className="text-beige-400 mb-8 text-sm max-w-md mx-auto">
+              Upload an image or video on the Detect page to generate your first verifiable authenticity report.
+            </p>
             <GlowButton onClick={() => navigate(ROUTES.DETECT)}>
               Analyze Your First File
             </GlowButton>
           </GlassCard>
         )}
 
-        {!isLoading && !isError && history && history.length > 0 && (
+        {!isLoading && safeHistory.length > 0 && (
           <motion.div
             variants={staggerContainer}
             initial="hidden"
             animate="visible"
             className="grid grid-cols-1 md:grid-cols-2 gap-4"
           >
-            {history.map((result) => (
+            {safeHistory.map((result) => (
               <motion.div key={result.id} variants={fadeUp}>
                 <HistoryCard
                   result={result}
