@@ -1,6 +1,12 @@
 import os
 import sys
 import logging
+
+# Ensure backend directory is in sys.path for top-level app imports
+backend_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
