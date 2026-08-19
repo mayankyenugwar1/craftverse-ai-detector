@@ -1,0 +1,9 @@
+{
+  "analysisId": "test-analysis-12345",
+  "wasHelpful": true,
+  "userSuggestedLabel": "real",
+  "comments": "Automated verification test feedback",
+  "timestamp": 1787161471.3647487,
+  "clientIp": "127.0.0.1",
+  "status": "pending_review"
+}
