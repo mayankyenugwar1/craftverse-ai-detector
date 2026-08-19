@@ -129,25 +129,24 @@ export const analyzeFile = async (file: File, isDemo: boolean = false): Promise<
     }
   }
 
-  // Live user upload: Attempt execution with automatic retry on transient network errors
+  // Live user upload: Attempt execution with candidate routes (/api/analyze & /analyze)
+  const candidateRoutes = ['/api/analyze', '/analyze'];
   let lastError: any = null;
-  for (let attempt = 1; attempt <= 2; attempt++) {
+
+  for (const route of candidateRoutes) {
     try {
       const formData = new FormData();
       formData.append('file', file);
-      const response = await api.post('/api/analyze', formData, {
+      const response = await api.post(route, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       return response.data.data || response.data;
     } catch (error: any) {
       lastError = error;
-      // Do not retry on client/validation errors (4xx or 503 unconfigured)
-      if (error.response && (error.response.status >= 400 && error.response.status <= 503)) {
-        break;
+      if (error.response && error.response.status === 404) {
+        continue;
       }
-      if (attempt < 2) {
-        await new Promise((res) => setTimeout(res, 1200));
-      }
+      break;
     }
   }
 

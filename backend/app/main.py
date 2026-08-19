@@ -101,12 +101,18 @@ os.makedirs(settings.DATA_DIR, exist_ok=True)
 # Mount uploads as static files (for serving thumbnails)
 app.mount("/uploads", StaticFiles(directory=settings.UPLOAD_DIR), name="uploads")
 
-# Include API routers
+# Include API routers (dual-mounted under /api and root for universal client compatibility)
 app.include_router(health.router, prefix="/api", tags=["health"])
 app.include_router(analyze.router, prefix="/api", tags=["analyze"])
 app.include_router(history.router, prefix="/api", tags=["history"])
 app.include_router(reports.router, prefix="/api", tags=["reports"])
 app.include_router(feedback.router, prefix="/api", tags=["feedback"])
+
+app.include_router(health.router, tags=["health-root"])
+app.include_router(analyze.router, tags=["analyze-root"])
+app.include_router(history.router, tags=["history-root"])
+app.include_router(reports.router, tags=["reports-root"])
+app.include_router(feedback.router, tags=["feedback-root"])
 
 
 @app.on_event("startup")
