@@ -38,30 +38,34 @@ class DeepLearningDetector:
         return cls._instance
 
     def _initialize_model(self):
-        # 1. Attempt PyTorch Vision Transformer loading
-        try:
-            import torch
-            from transformers import AutoImageProcessor, AutoModelForImageClassification
-            
-            self.device = "cuda" if torch.cuda.is_available() else "cpu"
-            logger.info(f"[ML DETECTOR] Attempting PyTorch/Transformers ViT initialization on device: {self.device}")
+        # 1. Check PyTorch/Transformers availability safely
+        import importlib.util
+        if importlib.util.find_spec("torch") is not None and importlib.util.find_spec("transformers") is not None:
+            try:
+                import torch
+                from transformers import AutoImageProcessor, AutoModelForImageClassification
+                
+                self.device = "cuda" if torch.cuda.is_available() else "cpu"
+                logger.info(f"[ML DETECTOR] Attempting PyTorch/Transformers ViT initialization on device: {self.device}")
 
-            for model_name in PREFERRED_HF_MODELS:
-                try:
-                    logger.info(f"[ML DETECTOR] Loading weights for {model_name}...")
-                    self.processor = AutoImageProcessor.from_pretrained(model_name)
-                    self.model = AutoModelForImageClassification.from_pretrained(model_name)
-                    self.model.to(self.device)
-                    self.model.eval()
-                    self.loaded_model_name = model_name
-                    self.is_ready = True
-                    self.is_fallback = False
-                    logger.info(f"[ML DETECTOR] Successfully loaded PyTorch ViT model: {model_name}")
-                    return
-                except Exception as e:
-                    logger.warning(f"[ML DETECTOR] Retrying next PyTorch choice for {model_name}: {e}")
-        except Exception as err:
-            logger.info(f"[ML DETECTOR] PyTorch loading bypassed ({err}). Checking ONNX Runtime engine...")
+                for model_name in PREFERRED_HF_MODELS:
+                    try:
+                        logger.info(f"[ML DETECTOR] Loading weights for {model_name}...")
+                        self.processor = AutoImageProcessor.from_pretrained(model_name)
+                        self.model = AutoModelForImageClassification.from_pretrained(model_name)
+                        self.model.to(self.device)
+                        self.model.eval()
+                        self.loaded_model_name = model_name
+                        self.is_ready = True
+                        self.is_fallback = False
+                        logger.info(f"[ML DETECTOR] Successfully loaded PyTorch ViT model: {model_name}")
+                        return
+                    except Exception as e:
+                        logger.warning(f"[ML DETECTOR] Retrying next PyTorch choice for {model_name}: {e}")
+            except Exception as err:
+                logger.info(f"[ML DETECTOR] PyTorch loading bypassed ({err}). Checking ONNX Runtime engine...")
+        else:
+            logger.info("[ML DETECTOR] PyTorch not present. Proceeding directly with native ONNX Runtime Engine...")
 
         # 2. Attempt ONNX Runtime Deep Vision Classifier loading
         try:

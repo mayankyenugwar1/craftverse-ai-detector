@@ -3808,5 +3808,110 @@
     "model": null,
     "createdAt": "2026-08-19T16:48:16.932210+00:00",
     "thumbnailUrl": null
+  },
+  {
+    "id": "40db17fe-d37b-455f-aa83-e5a68d40d2d1",
+    "filename": "033dd3550a714fac886becff2f753afc.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 26,
+    "realProbability": 74,
+    "manipulationProbability": 16,
+    "uncertainProbability": 52,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 6,
+        "description": "Deep learning pattern recognition (craftverse-onnx-vit-v1)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (craftverse-onnx-vit-v1)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "craftverse-onnx-vit-v1",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 6.4,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 6.4,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 6.4,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-19T17:04:37.781041+00:00",
+    "thumbnailUrl": "/uploads/033dd3550a714fac886becff2f753afc.png"
+  },
+  {
+    "id": "1d76dace-f59c-492b-8ada-2fdb61304ad4",
+    "filename": "9f6492cbfbbc42edb507cf97aa5c5446.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "model": null,
+    "createdAt": "2026-08-19T17:04:39.927531+00:00",
+    "thumbnailUrl": null
   }
 ]
