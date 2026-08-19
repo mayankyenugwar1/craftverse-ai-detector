@@ -145,7 +145,8 @@ async def root_health():
     model_status = detector.get_model_status()
     return {
         "status": "ok" if detector.is_ready else "degraded",
-        "service": "craftverse-api",
+        "service": "craftverse-ai-detector-backend",
+        "environment": "production",
         "version": "1.0.0",
         "model": {
             "loaded": model_status["model_loaded"],
