@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { AnalysisResult } from '../types';
 
 const rawBase = import.meta.env.VITE_API_URL || '';
-const API_BASE_URL = rawBase ? rawBase.replace(/\/+$/, '') : (import.meta.env.DEV ? 'http://localhost:8000' : '');
+const API_BASE_URL = rawBase ? rawBase.replace(/\/+$/, '') : (import.meta.env.DEV ? 'http://localhost:8000' : 'https://craftverse-backend.onrender.com');
 
 const api = axios.create({
   baseURL: API_BASE_URL,
