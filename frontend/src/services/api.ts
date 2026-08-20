@@ -134,14 +134,16 @@ export const analyzeFile = async (file: File, isDemo: boolean = false): Promise<
     }
   }
 
-  // Live user upload: Multi-endpoint discovery with candidate cloud URLs
-  const candidateEndpoints = [
+  // Live user upload: Multi-endpoint discovery with candidate cloud & local URLs
+  const candidateEndpoints = Array.from(new Set([
+    `${API_BASE_URL}/api/analyze`,
+    `${API_BASE_URL}/analyze`,
     'https://craftverse-ai-detector-backend.onrender.com/api/analyze',
     'https://craftverse-ai-detector-backend.onrender.com/analyze',
     'https://craftverse-backend.onrender.com/api/analyze',
     '/api/analyze',
     '/analyze',
-  ];
+  ]));
   let lastError: any = null;
 
   for (const endpoint of candidateEndpoints) {

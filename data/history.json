@@ -1,0 +1,517 @@
+[
+  {
+    "id": "25b5fa78-b099-4f0c-a7e9-c86c2784b970",
+    "filename": "f24c6c3a86454762a9eab303b2e06960.png",
+    "originalFilename": "ai-generated-fake.png",
+    "mediaType": "image",
+    "mimeType": "application/octet-stream",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "fallback-heuristic-engine",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0707,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 50.0,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 50.0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 65.0,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-20T03:14:37.677738+00:00",
+    "thumbnailUrl": "/uploads/f24c6c3a86454762a9eab303b2e06960.png"
+  },
+  {
+    "id": "d73d582d-7d37-4a8c-9486-fac367fa5488",
+    "filename": "aa2c0b57d5234912a8b65c4312808722.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 57,
+    "realProbability": 43,
+    "manipulationProbability": 26,
+    "uncertainProbability": 86,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 75,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 26,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "fallback-heuristic-engine",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 75.0,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 75.0,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 75.0,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-20T03:15:51.273592+00:00",
+    "thumbnailUrl": "/uploads/aa2c0b57d5234912a8b65c4312808722.jpg"
+  },
+  {
+    "id": "414efefb-c5da-4c87-ae91-920d118c7c0d",
+    "filename": "f380825c255e42eab1af788a58b33293.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 57,
+    "realProbability": 43,
+    "manipulationProbability": 26,
+    "uncertainProbability": 86,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 75,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 26,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "fallback-heuristic-engine",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 75.0,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 75.0,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 75.0,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-20T03:15:52.735556+00:00",
+    "thumbnailUrl": "/uploads/f380825c255e42eab1af788a58b33293.jpg"
+  },
+  {
+    "id": "3cc2937b-974f-41a9-b20a-830493e56c33",
+    "filename": "2c1ff7f9ddbc46ada32b3461736d918c.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 57,
+    "realProbability": 43,
+    "manipulationProbability": 26,
+    "uncertainProbability": 86,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 75,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 26,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "fallback-heuristic-engine",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 75.0,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 75.0,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 75.0,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-20T03:17:15.097482+00:00",
+    "thumbnailUrl": "/uploads/2c1ff7f9ddbc46ada32b3461736d918c.jpg"
+  },
+  {
+    "id": "297cb0d6-542d-489e-bf80-20c397b2509a",
+    "filename": "b7189e728d86463e8ce27e0c686808d3.jpg",
+    "originalFilename": "WIN_20260110_08_01_51_Pro.jpg",
+    "mediaType": "image",
+    "mimeType": "image/jpeg",
+    "fileSize": 150059,
+    "status": "completed",
+    "aiProbability": 57,
+    "realProbability": 43,
+    "manipulationProbability": 26,
+    "uncertainProbability": 86,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 75,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 23,
+        "description": "Natural power spectrum decay consistent with optical lens capture"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 26,
+        "description": "Sensor noise variance consistent with physical camera sensor"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 21,
+        "description": "Natural color channel correlation consistent with optical light spectrum"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Natural power spectrum decay consistent with optical lens capture",
+        "Sensor Noise Consistency: Sensor noise variance consistent with physical camera sensor",
+        "Color Distribution Divergence: Natural color channel correlation consistent with optical light spectrum"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "fallback-heuristic-engine",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 75.0,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "crop": "center_crop",
+          "score": 75.0,
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "crop": "highres_patch",
+          "score": 75.0,
+          "width": 640,
+          "height": 360
+        }
+      ]
+    },
+    "createdAt": "2026-08-20T03:17:16.365564+00:00",
+    "thumbnailUrl": "/uploads/b7189e728d86463e8ce27e0c686808d3.jpg"
+  },
+  {
+    "id": "1ed2501d-abdf-4cae-a9ab-004b48aa8b3e",
+    "filename": "4df9f63b0c6b48bb9178916733eed9da.png",
+    "originalFilename": "valid_pixel.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 69,
+    "status": "completed",
+    "aiProbability": 53,
+    "realProbability": 47,
+    "manipulationProbability": 28,
+    "uncertainProbability": 94,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [
+      {
+        "name": "Vision Transformer Signal",
+        "score": 55,
+        "description": "Deep learning pattern recognition (fallback-heuristic-engine)"
+      },
+      {
+        "name": "Spectral Frequency Artifacts",
+        "score": 50,
+        "description": "Insufficient resolution"
+      },
+      {
+        "name": "Sensor Noise Consistency",
+        "score": 50,
+        "description": "Low resolution"
+      },
+      {
+        "name": "Color Distribution Divergence",
+        "score": 50,
+        "description": "Uniform color distribution"
+      }
+    ],
+    "suspiciousFrames": [],
+    "explanation": {
+      "summary": "The analysis is inconclusive due to mixed detector signals or high spatial variance.",
+      "keyFindings": [
+        "Vision Transformer Signal: Deep learning pattern recognition (fallback-heuristic-engine)",
+        "Spectral Frequency Artifacts: Insufficient resolution",
+        "Sensor Noise Consistency: Low resolution",
+        "Color Distribution Divergence: Uniform color distribution"
+      ],
+      "riskLevel": "MEDIUM",
+      "recommendation": "Seek manual verification or additional media context.",
+      "explanation": "Detector signals and physical forensic features yielded conflicting confidence metrics."
+    },
+    "analysisMode": "live",
+    "model": {
+      "name": "fallback-heuristic-engine",
+      "version": "craftverse-detector-v1",
+      "calibrated": true,
+      "device": "cpu",
+      "cropsEvaluated": 3,
+      "cropStdDev": 0.0707,
+      "cropDetails": [
+        {
+          "crop": "full",
+          "score": 50.0,
+          "width": 1,
+          "height": 1
+        },
+        {
+          "crop": "center_crop",
+          "score": 50.0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "crop": "highres_patch",
+          "score": 65.0,
+          "width": 224,
+          "height": 224
+        }
+      ]
+    },
+    "createdAt": "2026-08-20T03:19:53.230353+00:00",
+    "thumbnailUrl": "/uploads/4df9f63b0c6b48bb9178916733eed9da.png"
+  },
+  {
+    "id": "1f1d3467-944a-4d0d-8bc0-1de240a37a5b",
+    "filename": "f39517a71c114bf899c9350cc2b88ea3.png",
+    "originalFilename": "corrupted.png",
+    "mediaType": "image",
+    "mimeType": "image/png",
+    "fileSize": 39,
+    "status": "analyzing",
+    "aiProbability": 0,
+    "realProbability": 0,
+    "manipulationProbability": 0,
+    "uncertainProbability": 0,
+    "verdict": "UNCERTAIN",
+    "confidence": "low",
+    "generator": null,
+    "indicators": [],
+    "suspiciousFrames": [],
+    "explanation": null,
+    "analysisMode": "live",
+    "model": null,
+    "createdAt": "2026-08-20T03:19:55.289075+00:00",
+    "thumbnailUrl": null
+  }
+]
